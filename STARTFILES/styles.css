@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1036px;
+  height: 700px; /* will be removed once page is complete */
+  background-color: white;
+  padding: 15px;
+  border: 3px solid gray;
+  margin: 20px;
+  text-align: left;
+}

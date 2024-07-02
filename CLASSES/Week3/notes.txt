@@ -1,0 +1,32 @@
+
+CSS Units:
+
+16px = 12pt = 100% = 1em 
+vh: veiwport Height
+vw: viewport Width..
+
+em: adapt from immediate parent
+rem: adapt from root element..
+
+Why 100% vw for some elements?
+1.Inline(just occupy the required) vs 2. Block (by default the will occupy 100% of the width)
+/////
+
+MAY 15th,2024
+
+CSS Box Model:
+
+Flex Box Model:
+
+Media queries:
+
+Forms in HTML: They are used to the input from user
+    <from> </form>
+    Attributes:
+    action = what you want to do when user submits the from
+    method = get; post;
+
+        get method sends data as part of URL
+        post method sends data as part of body of the document
+
+Bootstrap! ??

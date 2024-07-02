@@ -1,0 +1,46 @@
+WEEK 2: MAY 9TH, 2024
+/////////////////////
+try to imitate wiikpedia!
+web Browsers are actually called "user agents"
+
+Attributes: that gives extra functionality to the tags:
+<a href="https://www.google.com" id="ggl">Google </a>
+<img src="abc.jpg"/>
+
+//ALMOST ALWATS NAME YOUR FIRST PAGE INDEX.HTML//
+
+CSS: Cascading Style Sheets
+    how do my pahe look good?....
+    Web Browser do have their styles too...
+
+Syntax of CSS:
+    Rules:
+        I) A Selector - the element on which we want to apply styles
+        II) Declearation - the rule/style in a key value pair that has applied
+
+    where to put CSS?
+        III) Inline Css - not recommeneded - when we define style within the elementy
+        <h1 style = "color:red"> Another heading </h1>
+        
+        IV)Internal CSS: When we define style in the head 
+        section of the document...
+
+        V) External CSS: Define a seperate file with ".css" extenstion and link
+        to any page you want
+
+        VI) The Browser itself - its own style sheet...
+
+Selectors:
+1) Tag/type Selectors: When we use tag name to style something
+
+2) Class Selectors: When we define a class of styles by using "." .demo{ } ...
+<h1 class = "demo">This one applied </h1>
+
+3) ID selectors: When we define style for a unique element represented by an id.
+The style is defined by us ign #a1 for example... "#"
+
+4) Contextual Selectors: Div h1{ } // only those h1 will get  This
+style
+
+Next Week!
+Box model, Flexbox, CSS Grid!

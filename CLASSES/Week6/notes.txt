@@ -1,0 +1,75 @@
+Object Oriented Programming in JavaScript:
+
+    There is a constructor function that can be used to construct objects.(from our programming in JavaScript) - Prototypal inheritance: legacy ways of doing object oriented programming in JavaScript.
+
+    Advanced/ES5 ES6(Real Object Oriented way): Instead of using constructor function, we use something that is called a "class" and then we create object of that class.
+
+    Syntax:
+
+    class Student{
+
+       //member variables
+        firstName;
+        lastName;
+
+        //member functions/methods
+
+        printName(){
+            console.log(this.firstName);
+
+        }
+
+        setName(f,l){
+            this.firstName = f;
+            this.lastName = l;
+                   }
+        getLastName(){
+            return this.lastName;
+        }
+    }
+
+
+
+    class defines a blueprint that contains data and functions inside it.
+
+
+    To use this class, we NEED to create "object". [class itself is not usable, unless we create object of it that contains all the features of the class inside it - PROVE IT SOME OTHER WAY]
+
+
+    In JavaScript classes, the constructor function is literally called "constructor"
+
+    In ALL other Object Oriented Programming languages, constructor function has the same name as "class"..
+
+    constructor function in class is automatically/implicitly called when the object of this class is created.
+    
+    Other than constructor all functions need to be explicitly called. 
+
+    In every class, we have setter and getter functiosn
+    
+    setters to set something for the class
+    getters to get something fromn the class
+
+    Every class can have a special fucntion called "constructor". The constructor function actually is called "implicitly" when the object is created.
+
+undefined * undefined = NaN
+x * undefined = NaN
+
+
+static methods and fields:
+
+Keyword "static" makes the member function or variable as "class level component" NOT "object level component".
+
+Now I can access the static member by using the class name ... 
+Math.random(); //Math is a class and it has static random() function inside it..
+Math.sqrt();
+
+localStorage: 
+API that enables us to use "browser's memory" to remember few objects during the life of the web page...
+
+localStorage stores data in JSON format...
+    {"title":"java","author","Ivro HOrton","isbn",1223} a json object that we cannot direclty read rather we need convert it into normal object...
+
+    
+    {title:"java",author:"Ivor Horton", isbn:1233} normal object that i can read...
+
+    JSON format is very widely used data type to store/send data over different apis...JSON(Java Script Object Notation)
